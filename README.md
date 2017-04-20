@@ -14,7 +14,7 @@ Install it directly from github:
 npm install Ometria/remove-unused-css --save
 ```
 
-## Usage
+## Usage
 
 ```
 import removeUnusedCss from 'remove-unused-css'
