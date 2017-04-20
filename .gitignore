@@ -1,0 +1,15 @@
+# Application dependencies
+node_modules
+npm-debug.log
+
+# Mac files
+.DS_Store
+
+# IDE files
+default.sublime-*
+.tern-project
+.idea/
+*.iml
+*.swp
+
+build
