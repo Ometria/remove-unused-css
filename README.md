@@ -16,7 +16,7 @@ npm install Ometria/remove-unused-css --save
 
 ## Usage
 
-```
+```javascript
 import removeUnusedCss from 'remove-unused-css'
 
 let newCss = removeUnusedCss(htmlFileContents, cssFileContents);
