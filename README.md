@@ -3,12 +3,13 @@
 Small module that, given some CSS and a static HTML file, filters out unused CSS rules.
 Also works with rules inside media queries.
 
-Works by parsing the css and checking for the presence of the target element in the HTML.
-Developed for optimizing emails created with a css framework.
+Works by parsing the CSS and checking for the presence of the target elements in the HTML.
+
+Developed for optimizing emails created using a CSS framework.
 
 ## Install
 
-Install it directly from github:
+Directly from github, at this point:
 
 ```
 npm install Ometria/remove-unused-css --save
