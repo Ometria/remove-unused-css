@@ -1,6 +1,6 @@
 
 import { expect } from 'chai';
-import removeCss from '../index.js';
+import removeCss from '../index.cjs';
 
 describe('Tests with basic input', function(){
   it('Should accept and return empty strings', function(){
