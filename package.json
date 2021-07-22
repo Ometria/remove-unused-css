@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Small module for filtering out unused css rules.",
   "type": "module",
-  "main": "build/index.js",
+  "main": "build/index.cjs",
   "scripts": {
     "test": "mocha --require babel-register tests/*",
     "postinstall": "babel -s -d build --presets es2015 index.cjs"
