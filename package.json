@@ -2,11 +2,10 @@
   "name": "remove-unused-css",
   "version": "1.0.0",
   "description": "Small module for filtering out unused css rules.",
-  "type": "module",
-  "main": "build/index.cjs",
+  "main": "build/index.js",
   "scripts": {
     "test": "mocha --require babel-register tests/*",
-    "postinstall": "babel -s -d build --presets es2015 index.cjs"
+    "postinstall": "babel -s -d build --presets es2015 index.js"
   },
   "author": "",
   "license": "ISC",
